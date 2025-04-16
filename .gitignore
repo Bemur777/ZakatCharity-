@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Игнорировать .env файл с токенами
+.env
+
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+
+# Дополнительные файлы (опционально)
+.env.local
+*.env.*
