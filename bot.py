@@ -1,6 +1,6 @@
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import (
+from telegram.ext import Updater, CommandHandler, CallbackContext (
     Application,
     CommandHandler,
     CallbackQueryHandler,
