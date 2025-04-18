@@ -13,21 +13,29 @@ from telegram.ext import (
 )
 
 telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from telegram.ext import (
+    Updater, 
+    CommandHandler, 
+    CallbackContext
     Application,
     CommandHandler,
     CallbackQueryHandler,
     MessageHandler,
     filters,
-    ContextTypes,rt os
+    ContextTypes,rt os )
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from telegram.ext import (
+
+    Updater, 
+    CommandHandler, 
+    CallbackContext
     Application,
     CommandHandler,
     CallbackQueryHandler,
     MessageHandler,
     filters,
-    ContextTypes
+    ContextTypes )
 
 from dotenv import load_dotenv
 import requests
